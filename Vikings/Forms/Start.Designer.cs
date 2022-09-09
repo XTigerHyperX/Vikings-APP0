@@ -59,26 +59,32 @@
             // 
             // Log_btn
             // 
+            this.Log_btn.BackColor = System.Drawing.Color.White;
+            this.Log_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Log_btn.Location = new System.Drawing.Point(396, 137);
             this.Log_btn.Name = "Log_btn";
             this.Log_btn.Size = new System.Drawing.Size(99, 38);
             this.Log_btn.TabIndex = 2;
             this.Log_btn.Text = "Login";
-            this.Log_btn.UseVisualStyleBackColor = true;
+            this.Log_btn.UseVisualStyleBackColor = false;
+            this.Log_btn.Click += new System.EventHandler(this.Log_btn_Click);
             // 
             // Reg_btn
             // 
+            this.Reg_btn.BackColor = System.Drawing.Color.White;
+            this.Reg_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Reg_btn.Location = new System.Drawing.Point(396, 198);
             this.Reg_btn.Name = "Reg_btn";
             this.Reg_btn.Size = new System.Drawing.Size(99, 38);
             this.Reg_btn.TabIndex = 3;
             this.Reg_btn.Text = "Register";
-            this.Reg_btn.UseVisualStyleBackColor = true;
+            this.Reg_btn.UseVisualStyleBackColor = false;
             // 
             // Start
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(21)))), ((int)(((byte)(23)))));
             this.ClientSize = new System.Drawing.Size(769, 375);
             this.Controls.Add(this.Reg_btn);
             this.Controls.Add(this.Log_btn);
